@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiTest", "WebApiTest\WebApiTest.csproj", "{49C052A0-9F25-42B6-9556-41FE8F94071A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfraData", "InfraData\InfraData.csproj", "{B3ED6645-1F61-4A0E-95FA-10CAF1EF73A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49C052A0-9F25-42B6-9556-41FE8F94071A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49C052A0-9F25-42B6-9556-41FE8F94071A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49C052A0-9F25-42B6-9556-41FE8F94071A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49C052A0-9F25-42B6-9556-41FE8F94071A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3ED6645-1F61-4A0E-95FA-10CAF1EF73A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3ED6645-1F61-4A0E-95FA-10CAF1EF73A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3ED6645-1F61-4A0E-95FA-10CAF1EF73A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3ED6645-1F61-4A0E-95FA-10CAF1EF73A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
