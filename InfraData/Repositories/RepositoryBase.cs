@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Data.Entity;
 using System.Linq;
+using System.Web.Http.OData;
 using InfraData.Interfaces;
 
 namespace InfraData.Repositories
@@ -39,6 +40,12 @@ namespace InfraData.Repositories
         public void Update(TEntity obj)
         {
             Db.Entry(obj).State = EntityState.Modified;
+            Db.SaveChanges();
+        }
+
+        public void Patch(Delta<TEntity> newObj, TEntity oldObj)
+        {
+            newObj.Patch(oldObj);
             Db.SaveChanges();
         }
     }
